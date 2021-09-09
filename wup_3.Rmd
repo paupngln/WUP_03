@@ -54,6 +54,10 @@ summary.aov(model1)
 ```
 The P value represents the chances of getting a result like we juts obtained if the null hypothesis is actually true. Since the result is so small, I am going to reject the null hypothesis. 
 
+```{r}
+plot(TukeyHSD(model1))
+```
+We know need to look if we can discover what is different from what. As per the char above, the fron and the back are somewhat different with each other by just a little bit. The front and the middle and the back are different. 
 ## Conclusions
 
 
