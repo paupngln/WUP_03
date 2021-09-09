@@ -60,4 +60,10 @@ plot(TukeyHSD(model1))
 We know need to look if we can discover what is different from what. As per the char above, the fron and the back are somewhat different with each other by just a little bit. The front and the middle and the back are different. 
 ## Conclusions
 
+To conclude we found out that there are 3 diff categories instead of 2 so we used annova to figure out the number of drinks per week by the front middle and back rows. 
 
+Upon checking, the back row drinks 8.5 drinks a week. The front row drinks 1.78 drinks a week. The middle row drinks 3.33 drinks. Data shows that the they are not drinking the same amount.
+
+The P value represents the chances of getting a result like we juts obtained if the null hypothesis is actually true. Since the result is so small, I am going to reject the null hypothesis.
+
+We know need to look if we can discover what is different from what. As per the char above, the fron and the back are somewhat different with each other by just a little bit. The front and the middle and the back are different.
