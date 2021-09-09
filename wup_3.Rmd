@@ -9,13 +9,14 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r include=FALSE}
+```{r include=FALSE} 
 require(tidyverse)
 require(tigerstats)
 davisdata <- read.csv(file="UCDavis.csv")
 ```
 ## Our Goal is to answer this question Is there a difference between the alcohol consumed between the row
 ## you choose to sit in??
+
 
 ## Now with ggplot - first select the basic data
 
@@ -36,6 +37,12 @@ basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='e
 ```
 
 ## Numerical Summarys 
+
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+``` 
+
+Upon checking, the back row drinks 8.5 drinks a week. The front row dinks 1.78 drinks a week. The middle row drinks 3.33 drinks. Data shows that the they are not drinking the same amount. 
 
 ## Inferential Tests
 
