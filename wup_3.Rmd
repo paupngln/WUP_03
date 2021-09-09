@@ -48,6 +48,12 @@ Upon checking, the back row drinks 8.5 drinks a week. The front row dinks 1.78 d
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+The P value represents the chances of getting a result like we juts obtained if the null hypothesis is actually true. Since the result is so small, I am going to reject the null hypothesis. 
+
 ## Conclusions
 
 
