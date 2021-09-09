@@ -36,6 +36,8 @@ basicCN + geom_boxplot()
 basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
 ```
 
+The visual the plot shows quite a difference on the back row than the middle row and a big difference between the back row and the front row. 
+
 ## Numerical Summarys 
 
 ```{r}
